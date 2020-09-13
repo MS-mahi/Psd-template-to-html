@@ -167,6 +167,204 @@ img{
 .btn-home span i{
     margin-left:10px;
 }
+
+/* content */
+
+/* content1 */
+.container1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.container1 p{  
+    text-align: center;
+    font-size:18px;
+}
+
+.container1 button{
+    position: relative;
+    left: 45%;
+}
+
+.container1 i{
+    font-size:medium; 
+    color: black;
+}
+
+.container1 h1,h2,h3,h4{
+    text-align: center;
+}
+
+.container1 h2{
+    font-size:39.95 px;
+}
+
+.container1 h3{
+    font-size:24px;
+    font-weight: normal;
+}
+
+.container1 h4{
+    font-size:18px;
+    font-weight: lighter;
+}
+
+
+.container1 a{
+    color: #29c5f2;
+}
+
+.container1 .rec{
+    height: 7px;
+    width: 78px;
+    background-color:#7b6c63;
+    margin: auto;
+    margin-bottom: 52px;
+    border: none;
+    left:47% ;
+}
+
+
+/* about section */
+.about{
+    width: 517px;
+    height: 365px;
+    padding-bottom: 50px;
+    margin:90px 726px 50px 726px; 
+}
+
+.about>p{
+    line-height: 20px;
+}
+
+
+/* read section */
+.read{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5; 
+    margin-top:96px    
+}
+
+.read-data{
+    width:45%;
+    padding-top: 77px;
+    margin-left: 15%;  
+}
+
+.read-data>p{
+    padding-top: 34px;
+}
+
+.read-data>p, .read-data>h1{
+    text-align: left;
+}
+
+.read-data>button{
+    left:0%
+}
+/* service section */
+.service{
+    line-height: 1em;
+    margin: 90px 15% 65px;
+}
+
+.service .column{
+    float: left;
+    width: 33.33%;
+}
+
+
+.service>p{
+    padding-top: 30px;   
+}
+
+.service>.row{
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.service>.row>.column>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 45%;
+}
+
+/* skills */
+.skills{
+    margin-top:66px
+}
+
+.skills>img{
+    width: 100%;
+}
+
+/* projects */
+.project{
+    margin: 73px 35% 76px 35%;
+}
+
+.project>.rec{
+    left:40%
+}
+
+/* portfolio section */
+.portfolio{
+    background-color: #1a1a1a;
+    color: #ececec;
+    height: auto;
+}
+
+.portfolio .column {
+    float: left;
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+
+.portfolio .column .image{
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio .column .overlay{
+    width: 20%;
+    /* left:23px; */
+    margin-top:-33vh;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.portfolio .column .overlay:hover{
+    opacity: 1;
+}
+
+.portfolio .seealso{
+    background-color:white;
+    color:#1a1a1a;
+    margin-bottom: 5vh;
+    margin-top:5vh;
+}
+
+.portfolio>.seealso[type="button"], .read>.read-data[type="button"]{
+    width: 172px;
+    height: 49px;
+    font-size: 15px;
+}
+
+.portfolio-data{
+    padding: 118px 32%; 
+}
+
+
+/* content2 */
+
+
+
+
 /* Footer Area */
 #footer p{
     font-size:13px;
